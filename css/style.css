@@ -1,0 +1,32 @@
+
+.button {
+    display:block ;
+    height: 70px;
+    width: 200px;
+    margin: 0 auto;
+    background: #35696f;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    font: bold 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    border-radius: 50px;
+    box-shadow: 0 8px 0 #1b383b;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+a.button {
+    text-decoration: none;
+}
+a.button:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+.jumbotron{
+  text-align: center; 
+  background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
+    
+}
+
