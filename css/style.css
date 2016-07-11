@@ -1,8 +1,8 @@
-
 .button {
     display:block ;
-    height: 70px;
-    width: 200px;
+    
+    height: 35px;
+    width: 150px;
     margin: 0 auto;
     background: #35696f;
     border: 2px solid rgba(33, 68, 72, 0.59);
@@ -25,6 +25,7 @@ a.button:hover {
     background: linear-gradient(top, #3d7a80, #2f5f63);
 }
 .jumbotron{
+  height:200 px;
   text-align: center; 
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
