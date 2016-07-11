@@ -1,80 +1,101 @@
 <!DOCTYPE html>
 <html >
   <head>
-    <meta charset="UTF-8">
-    <title>A Pen by  Rita Lempert</title>
-    
-    
-    
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My new page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
   </head>
 
   <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-    <div class='container'>
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class='col-md-12'>
-          <div class="navbar-header">
-            </button> <a class="navbar-brand" href="#">My Apps</a>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="https://il.linkedin.com/in/rita-lempert-8602a97b"><span class="fa fa-linkedin" aria-hidden="true"></span> Linkedin</a></li>
+                 <li class="active"><a href="http://freecodecamp.com/ritalmprt"><span class="fa fa-envelope-o" aria-hidden="true"></span> Free Code Camp</a></li>
+                 <li class="active"><a href="https://github.com/RitaLmprt"><span class="fa fa-github" aria-hidden="true"></span>Github</a></li>
+              </ul>
+            </div>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="http://codepen.io/RitaLmprt/pen/BjaWGp">Link</a>
-            </li>
-            <li>
-              <a href="http://codepen.io/RitaLmprt/pen/xwBOOK">Link</a>
-            </li>
-            <li>
-              <a href="http://codepen.io/RitaLmprt/pen/bVJYOv">Link</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  <div class="jumbotron">
-    <h2>Rita Lempert</h2>
-    <p>
-      I'm a <a href='http://freecodecamp.com/ritalmprt'>coder</a>.
-    </p>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>						Heading					</h2>
-      <img class='img-responsive' src='http://weknowyourdreams.com/images/beautiful/beautiful-03.jpg'>
-      <p>
-       
-      </p>
-    </div>
+        </nav>  
 
-   
+    <div class="jumbotron">
+             
+      <div class='container'>  
+        <h2>Rita Lempert</h2>
+      </div>
   </div>
+ <div class="row row-content">
+           <div class="col-xs-12">
+
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                             <!-- Wrapper for slides -->
+                             <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="media-object img-thumbnail"
+                         src="img/drink.jpg" alt="drink" height="20">
+                    </div>
+                    <div class="item">
+                        <img class="media-object img-thumbnail"
+                         src="img/drink.jpg" alt="drink" height="20">
+                        
+                    </div>
+                    <div class="item">
+                        <img class="media-object img-thumbnail"
+                         src="img/drink.jpg" alt="drink" height="20">
+                        
+                    </div>
+                      <!-- Controls -->
+                <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+
+                </div>
+            </div>
+        </div>
   <div class='jumbotron'>
-    <h2 class='text-center'>Contact me</h2>
-    <div class='row'>
-      <div class='col-md-3'>
-        <a href='https://www.coursera.org/accomplishments/' class='button' style="background-image:url('#')" id='button1'>Coursera</a>
-      </div>
-       &nbsp;
-      <div class='col-md-3'>
-        <a href='https://il.linkedin.com/in/rita-lempert-8602a97b' class='button' style="background-image:url('#')" id='button3'>LinkedIn</a>
-      </div>
-       &nbsp;
-      <div class='col-md-3'>
-        <a href='https://github.com/RitaLmprt' class='button' style="background-image:url('#')" id='button3'>GitHub</a>
-      </div>
-       &nbsp;
-      <div class='col-md-3'>
-        <a href='http://freecodecamp.com/ritalmprt' class = 'button'style="background-image:url('#')" id='button4'>Free Code Camp</a>
+    <div class='container'>  
+      <h2 class='text-center'>My apps</h2>
+      <div class='row'>
+        <div class='col-md-4 col-lg-4'>
+          <a href="http://codepen.io/RitaLmprt/pen/BjaWGp" class ="button" style="background-image:url('#')">Calculator</a>
+        </div>
+        &nbsp;
+        <div class='col-md-4 col-lg-4'>
+          <a href="http://codepen.io/RitaLmprt/pen/bVJYOv" class='button' style="background-image:url('#')" id='button3'>Pomodoro watch</a>
+        </div>
+        &nbsp;
+        <div class='col-md-3'>
+          <a href="http://codepen.io/RitaLmprt/pen/xwBOOK" class='button' style="background-image:url('#')" id='button3'>Random Quotes Generator</a>
+        </div>
       </div>
     </div>
   </div>
@@ -83,6 +104,8 @@
     
     
     
-    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js "></script>   
   </body>
 </html>
