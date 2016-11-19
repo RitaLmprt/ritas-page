@@ -30,4 +30,7 @@ a.button:hover {
   background-image: url("https://rayandmave.files.wordpress.com/2015/09/rain.gif")
     
 }
+table {
+    width: 100%;
+}
 
